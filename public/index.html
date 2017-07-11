@@ -1,24 +1,17 @@
 <!DOCTYPE html>
 <html>
-<title>W3.CSS Template</title>
+<title>Tanko Website</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-<script>
-    $( function() {
-    $( "#tabs" ).tabs();
-  } );
-</script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
 <body>
-
+<div class="container">
 <!-- Navbar (sit on top) -->
-<div class="w3-top">
-  <div class="w3-bar w3-white w3-wide w3-padding w3-card-2">
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
     <a href="#home" class="w3-bar-item w3-button"><b style="font-size:200%">Tenkk</b><b style="font-size:200%;color:orange"> 腾克</b></a>
-    <!-- Float links to the right. Hide them on small screens -->
     <div class="w3-right w3-hide-small">
       <a href="#about" class="w3-bar-item w3-button"><b style="font-family:verdana;font-size:80%">About</b></a>
       <a href="#product" class="w3-bar-item w3-button"><b style="font-family:verdana;font-size:80%">Product</b></a>
@@ -26,16 +19,7 @@
       <a href="#contact" class="w3-bar-item w3-button"><b style="font-family:verdana;font-size:80%">Contact</b></a>
     </div>
   </div>
-</div>
-
-<!-- Header -->
-<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
-  <img class="w3-image" src="/w3images/architect.jpg" alt="Architecture" width="1500" height="800">
-  <div class="w3-display-middle w3-margin-top w3-center">
-    <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>BR</b></span> <span class="w3-hide-small w3-text-light-grey">Architects</span></h1>
-  </div>
-</header>
-
+</nav>
 <!-- Page content -->
 <div class="w3-content w3-padding" style="max-width:1564px">
 
@@ -181,11 +165,7 @@
   
 <!-- End page content -->
 </div>
-
-<!-- Footer -->
-<footer class="w3-center w3-black w3-padding-16">
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
-</footer>
+</div>
 
 </body>
 </html>
