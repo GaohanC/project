@@ -42,7 +42,19 @@
         <p> Q5: 您的退休年龄是？<input type="text" name="Q5"></p>
         <p> Q6: 您的RRSP(<a href="https://en.wikipedia.org/wiki/Registered_Retirement_Savings_Plan"><u style="color: blue">什么是RRSP</u></a>)存了多少？<input type="text" name ="Q6"></P>
         <p> Q7: 您的其他存款是多少？<input type="text" name="Q7"></p>       
-        <input type="submit" value="Submit">
+        <button onclick="myFunction()">submit</button>
+        
+        <script>
+            function myFunction() {
+                var a;
+                if(a>0){
+                    alert("恭喜您，您有相对充裕的退休储蓄，妥善计划您的存款可以让您的退休生活更美好!");
+                }else{
+                    alert("您的退休存款可能会面临不足，了解我们的储蓄计划可以帮您更好的规划您的退休存款")
+                }
+                }
+         </script>
+
 
       </div>
 
