@@ -3,7 +3,6 @@ function doNothing(event) {
     return false;
 }
 $( document ).ready(function() {
-    alert("ready");
     $("#calculate_saving").submit(function(){
         alert(calculate_saving($("#q1").val(),
                                 $("#q2").val(),
