@@ -120,8 +120,15 @@ b {
 
 .section {
     line-height: 30px;
-    height: 250px;
+    /* height: 350px; */
     width: 550px;
     float: left;
     padding: 15px
+}
+
+#footer-img {
+     height:60px;
+     width:400px;
+     vertical-align: bottom;
+     margin-top: 15%;
 }
