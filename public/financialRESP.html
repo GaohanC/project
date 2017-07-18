@@ -246,16 +246,26 @@ body .vc_tta-container .vc_tta.vc_general.vc_tta-accordion.vc_tta-style-classic 
 
   <div class="container" style="background-color:white">
     <!-- Navbar (sit on top) -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
-        <a href="#home" class="w3-bar-item w3-button"><b style="font-size:200%">Tenkk.ca</b><b style="font-size:200%;color:orange"> 腾客</b></a>
-        <div class="w3-right w3-hide-small">
-          <a href="index.html" class="w3-bar-item w3-button"><b style="font-family:verdana;font-size:80%">返回主页</b></a>
-          
+     <nav class="navbar navbar-default bg-faded navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand smooth" href="#home">
+                        <img class="float-left" height="30px" src="images/tenkk_small.png">
+                    </a>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="nav-item">
+                        <a href="index.html" class="smooth nav-link">
+                                <i class="glyphicon glyphicon-zoom-in"></i>
+                                <b>返回主页</b>
+                            </a>
+                    </li>
+                    
+                </ul>
+            </div>
         </div>
-      </div>
     </nav>
-
 
 
 
@@ -311,45 +321,38 @@ RESP账户可享受加拿大教育储蓄津贴Canada Education Savings Grant（C
 	</div>
 </div></div></div></div>
                  <!-- Contact Section -->
-  <div class="w3-container w3-padding-32" id="contact" >
-    <h3  >Contact Us</h3>
-      <style>
+                 <style>  
+     .section {
+    line-height: 30px;
+    /* height: 350px; */
+    width: 550px;
+    float: left;
+    padding: 15px
+}
 
-
-       #sec1 {
-           line-height:30px;
-           height:250px;
-           width:550px;
-           float:left;
-           padding:5px      
-       }
-
-       #sec2 {
-           line-height:30px;
-           height:250px;
-           width:550px;
-           float:left;
-           padding:5px;	      
-       }
-  
-       </style>
-                        <div id="sec1">
-    <p><i class="glyphicon glyphicon-phone" ></i>   : 604-275-2744</p> 
-    <p><i class="glyphicon glyphicon-envelope"></i>   : info@tenkk.ca</p>
-    <p><i class="fa fa-clock-o"></i>   : Mon - Fri 9.00 - 17.00</p>
-    <p><i class="fa fa-car"></i>   : 4080-8171 Ackroyd, Richmond, BC</p>
-    
-       
-    
-    
-   </div>
-               <div id="sec2" align="right" >
-                   <a> <img src ="images/tenkk.png" height="200" width="500" ></a>
-    
-    
-    
-   </div>
-  </div>
+#footer-img {
+     height:60px;
+     width:400px;
+     vertical-align: bottom;
+     margin-top: 15%;
+}
+     </style>
+        <!-- Contact Section -->
+        <div id="contact" class="main-section container">
+            <div class="col-md-8">
+                <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contact Us</h3>
+            </div>
+            <div class="section">
+                <p><i class="glyphicon glyphicon-phone"></i> : 604-275-2744</p>
+                <p><i class="glyphicon glyphicon-envelope"></i> : info@tenkk.ca</p>
+                <p><i class="fa fa-clock-o"></i> : Mon - Fri 9.00 - 17.00</p>
+                <p><i class="fa fa-car"></i> : 4080-8171 Ackroyd, Richmond, BC</p>
+            </div>
+            <div class="section col-md-4">
+                <a> <img id="footer-img" src ="images/tenkk_small.png"></a>
+            </div>
+        </div>
+		
                                                 
 			
  <!-- #post-## -->
