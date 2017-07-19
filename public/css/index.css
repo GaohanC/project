@@ -5,6 +5,10 @@
 
 /* colors */
 
+.black {
+    color: black
+}
+
 #header,
 #footer {
     background-color: #f1f1f1;
@@ -12,7 +16,6 @@
 
 body {
     padding-top: 0px;
-    background: linear-gradient(white, lightskyblue);
 }
 
 #main-wrap {
@@ -102,6 +105,11 @@ body {
     margin: auto;
 }
 
+img {
+    max-width:100%;
+    max-height: 100%;
+}
+
 .card-text {
     word-wrap: break-word;
 }
@@ -128,6 +136,7 @@ b {
 
 .carousel {
     margin: -25px;
+    margin: auto;
 }
 
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
@@ -140,4 +149,17 @@ b {
      width:400px;
      vertical-align: bottom;
      margin-top: 15%;
+}
+
+#advisor-row {
+    padding-left: 10px;
+    width: 100%;
+    margin: 0;
+    margin-top: -90px;
+    background-color: silver;
+    color: gray;
+}
+
+#product {
+    background-color: red;
 }
