@@ -18,9 +18,17 @@
     <link rel="stylesheet" type="text/css" href="css/index.css">
     <!-- custom script  -->
     <script src="js/index.js"></script>
+    
+    <style> 
+            h1{
+                text-align: center;
+            }
+    </style>
 </head>
 
-<body>
+        
+ 
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
     <!-- Navigation Bar -->
     <nav class="navbar navbar-default bg-faded navbar-fixed-top">
         <div class="container">
@@ -60,6 +68,7 @@
     <div>
         <!-- About Section -->
         <div id="home" class="container">
+            <div class="row">
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
             <!-- <ol class="carousel-indicators">
@@ -93,14 +102,37 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
+        <!-- End of carousel -->
+        <div class="row" id="advisor-row">
+            <div class="container-fluid" id="advisor-container">
+                <div class="row">
+                    <h2 class="black">Tenkk Recommended Advisor/Top Advisor</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="images/houses.png" />
+
+                    </div>
+                    <div class="col-md-5">
+                        <h2>Charles Wang</h2>
+                        <p>This is indicated in the documentation via input parameter specifications such as a : (..., M, M) array_like. This means that if for instance given an input array a.shape == (N, M, M), it is interpreted as a “stack” of N matrices, each of size M-by-M. Similar specification applies to return values, for instance the determinant has det : (...) and will in this case return an array of shape det(a).shape == (N,). This generalizes to linear algebra operations on higher-dimensional arrays: the last 1 or 2 dimensions of a multidimensional array are interpreted as vectors or matrices, as appropriate for each operation.</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="images/资源 5.png" />
+                    </div>
+                </div>
+            </div>
         </div>
+        
+       
         <!-- Product Section -->
         <div id="product" class="main-section container">
             <h1>Product</h1>
             <ul class="nav nav-pills navbar-default ">
                 <li class="active">
-                    <a href="#1a" data-toggle="tab">保险x4</a>
+                    <a href="#0a" data-toggle="tab">All</a>
                 </li>
+                <li><a href="#1a" data-toggle="tab">保险x4</a>
                 <li><a href="#2a" data-toggle="tab">税务x5</a>
                 </li>
                 <li><a href="#3a" data-toggle="tab">投资x7</a>
@@ -110,6 +142,61 @@
             </ul>
 
             <div class="tab-content clearfix">
+                <div class="tab-pane active" id="0a">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <a href="financialPlanning.html">
+                                <div class="col-sm-4">
+                                    <div class="card">
+                                        <img class="card-img-top img-fluid" src="images/insurance.png" alt="">
+                                        <div class="card-block text-xs-left|center|right">
+                                            <h4 class="card-title">财务规划</h4>
+                                            <p class="card-text">专业持牌财务规划师为您提供个性化理财计划，帮助您最大化达到长/短期财务需求。</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="financialPlanning.html">
+                                <div class="col-sm-4">
+                                    <div class="card">
+                                        <img class="card-img-top img-fluid" src="images/tax.png" alt="">
+                                        <div class="card-block text-xs-left|center|right">
+                                            <h4 class="card-title">财务规划</h4>
+                                            <p class="card-text">专业持牌财务规划师为您提供个性化理财计划，帮助您最大化达到长/短期财务需求。</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+         
+                        </div>
+                        <div class="row">
+                            <a href="financialPlanning.html">
+                                <div class="col-sm-4">
+                                    <div class="card">
+                                        <img class="card-img-top img-fluid" src="images/Mortgage.png" alt="">
+                                        <div class="card-block text-xs-left|center|right">
+                                            <h4 class="card-title">财务规划</h4>
+                                            <p class="card-text">专业持牌财务规划师为您提供个性化理财计划，帮助您最大化达到长/短期财务需求。</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="financialPlanning.html">
+                                <div class="col-sm-4">
+                                    <div class="card">
+                                        <img class="card-img-top img-fluid" src="images/Investment.png" alt="">
+                                        <div class="card-block text-xs-left|center|right">
+                                            <h4 class="card-title">财务规划</h4>
+                                            <p class="card-text">专业持牌财务规划师为您提供个性化理财计划，帮助您最大化达到长/短期财务需求。</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                
                 <div class="tab-pane active" id="1a">
                     <div class="container-fluid">
                         <div class="row">
