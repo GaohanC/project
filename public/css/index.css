@@ -113,10 +113,11 @@ body {
     word-wrap: break-word;
 }
 
-*[id]:before {
+.main-section[id]:before {
     display: block;
     content: " ";
     height: 40px;
+    background-color: white; 
     visibility: hidden;
 }
 
@@ -157,9 +158,39 @@ b {
 }
 
 #advisor-row {
-    margin-top: -90px;
+    margin-top: -50px;
     background-color: silver;
     color: gray;
 }
 
+#event-container {
+    margin: 0;
+    padding-left: auto;
+    margin-top: 50px;
+    background-color: lightgray;
+    text-align: center;
+    grid-gap: 0px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
 
+#event-container>div>div>div[class="row"] {
+    /* background-color: red; */
+    height: 250px;
+}
+
+#event-container>div>div>div[class="row"]>p {
+    padding-top: 100px;
+}
+
+#event-container>div>div>div[class="row"]>div {
+    bottom: 0px;
+    position:absolute;
+    text-align: center;
+    width: 100%;
+}
+
+.custom-margin {
+    padding: 0;
+    background-color: red;
+}
