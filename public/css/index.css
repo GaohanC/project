@@ -7,12 +7,18 @@
 
 #header,
 #footer {
-    background-color: #f1f1f1;
+    background-color: lightskyblue;
+    height: 270px;
+}
+
+img {
+    max-height: 100%;
+        max-width: 100%;
 }
 
 body {
     padding-top: 0px;
-    background: linear-gradient(white, lightskyblue);
+  
 }
 
 #main-wrap {
@@ -119,11 +125,11 @@ b {
 }
 
 .section {
-    line-height: 30px;
+    line-height: 20px;
     /* height: 350px; */
-    width: 550px;
-    float: left;
-    padding: 15px
+    /*width: 550px;*/
+    /*float: left;*/
+    padding: 0px
 }
 
 .carousel {
