@@ -127,7 +127,7 @@
        
         <!-- Product Section -->
         <div id="product" class="main-section container">
-            <h1>Product</h1>
+            <h1 class="w3-border-bottom w3-border-light-blue w3-padding-16">产品 Products<br><font size="4">Tenkk works with tons of Advisors involving in various area within Finance field.</font><br><font size="3">腾客连接众多金融从业人士，涉及全面产品类型，您的需求是我们的第一宗旨。</font></h1>
             <ul class="nav nav-pills navbar-default ">
                 <li class="active">
                     <a href="#0a" data-toggle="tab">All</a>
@@ -421,10 +421,14 @@
         </div>
         <!-- News and Events -->
         <div id="newsAndEvents" class="main-section container">
-            <h1>每日财经新闻&线下活动</h1>
+           <h1 class="w3-border-bottom w3-border-light-blue w3-padding-16">BIG NEWS TODAY<br><font size="5">今 日 新 闻</font><br></h1>
             <div class="row">
                 <div class="col-sm-6">
                     <div class="card card-block">
+                        <p id="demo"></p>
+                        <script>
+                            document.getElementById("demo").innerHTML = Date();
+                        </script>
                         <h2 class="card-title">新闻</h2>
                     </div>
                     <!-- 5 panels for now -->
@@ -437,20 +441,13 @@
                     </div>
                 </div>
                 <div class="col-sm-6">
-                    <div class="card card-block">
-                        <h2 class="card-title">活动</h2>
-                    </div>
-                    <!-- 5 panels for now -->
-                    <div class="panel panel-default">
-                        <div class="panel-body">Event Content</div>
-                        <div class="panel-body">Event Content</div>
-                        <div class="panel-body">Event Content</div>
-                        <div class="panel-body">Event Content</div>
-                        <div class="panel-body">Event Content</div>
-                    </div>
+                    <img src="images/news.png">
                 </div>
             </div>
         </div>
+         <div id="activity" class="main-section container">
+           <h1 class="w3-border-bottom w3-border-light-blue w3-padding-16">Latest Activities<br><font size="5">近 期 活 动</font><br></h1>
+           </div>
 
 
 

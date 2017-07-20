@@ -159,4 +159,8 @@ b {
     color: gray;
 }
 
-
+#activity{
+     background-image: url("act.png");
+    
+     height:500px;
+}
