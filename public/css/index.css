@@ -13,7 +13,7 @@
 
 img {
     max-height: 100%;
-        max-width: 100%;
+    max-width: 100%;
 }
 
 body {
@@ -141,6 +141,12 @@ b {
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
     width: 100%;
     height: 600px;
+}
+
+.gcw_mainFaN5z6PfE{
+    float: left;
+    max-height: 100%;
+    max-width: 100%;
 }
 
 #footer-img {
