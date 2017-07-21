@@ -25,6 +25,17 @@
             text-align: center;
         }
         
+        .nav-tabs.centered > li, .nav-pills.centered > li {
+    float:none;
+    display:inline-block;
+    *display:inline; /* ie7 fix */
+     zoom:1; /* hasLayout ie7 trigger */
+}
+
+.nav-tabs.centered, .nav-pills.centered {
+    text-align:center;
+}
+        
         
         
      
@@ -145,24 +156,26 @@
         <!-- Product Section -->
         <div id="product" class="main-section container">
             <h1 class="w3-border-bottom w3-border-light-blue w3-padding-16">产品 Products<br><font size="4">Tenkk works with tons of Advisors involving in various area within Finance field.</font><br><font size="3">腾客连接众多金融从业人士，涉及全面产品类型，您的需求是我们的第一宗旨。</font></h1>
-            <ul class="nav nav-pills navbar-default ">
+            <ul class="nav nav-tabs centered">
                 <li class="active">
-                    <a href="#0a" data-toggle="tab">All</a>
+                    <a href="#0a" data-toggle="tab">所有<br>All</a>
+                    
+                   
                 </li>
-                <li><a href="#1a" data-toggle="tab">保险x4</a>
+                <li><a href="#1a" data-toggle="tab">保险<br>Insurance</a>
                 </li>
-                <li><a href="#2a" data-toggle="tab">税务x5</a>
+                <li><a href="#2a" data-toggle="tab">投资<br>Investment</a>
                 </li>
-                <li><a href="#3a" data-toggle="tab">投资x7</a>
+                <li><a href="#3a" data-toggle="tab">借贷<br>Mortgage&Loan</a>
                 </li>
-                <li><a href="#4a" data-toggle="tab">借贷x1</a>
+                <li><a href="#4a" data-toggle="tab">税务<br>Tax</a>
                 </li>
                 </ul>
 
             <div class="tab-content clearfix">
                 
                 <div class="tab-pane active" id="0a">
-<<<<<<< HEAD
+
 
              
                 <div class="container" id="event-container">    
@@ -174,7 +187,9 @@
                             <!-- left col -->
                             <div class="row" style="background-color:rgb(200, 200, 200)">
                                 <!-- left row 1 -->
-                                 <h2>Insurance</h2>
+                                 <h3 align="left">&nbsp;&nbsp;&nbsp;保险  <br>
+                                     &nbsp;&nbsp;&nbsp;Insurance
+                                 </h3>
                                  
                                 
                                 
@@ -195,7 +210,9 @@
                             <!-- right col -->
                             <div class="row" style="background-color:rgb(230, 230, 225)">
                                 <!-- right row 1 -->
-                                <h2>Mortgage&Loan</h2>
+                                <h3 align="left">&nbsp;&nbsp;&nbsp;借贷<br>
+                                    &nbsp;&nbsp;&nbsp;Mortgage&Loan
+                                 </h3>
                             </div>
                            
                         </div>
@@ -221,38 +238,14 @@
                             <!-- left col -->
                             <div class="row" style="background-color:rgb(230, 230, 225)">
                                 <!-- left row 1 -->
-                                <h2>Investment</h2>
+                                <h3 align="left">&nbsp;&nbsp;&nbsp;投资<br>
+                                    &nbsp;&nbsp;&nbsp;Investment
+                                 </h3>
                                 
                             </div>
-    
-=======
-                    <div class="container-fluid">
-                        <div class="row">
-                            <a href="financialPlanning.html">
-                                <div class="col-sm-4">
-                                    <div class="card">
-                                        <img class="card-img-top img-fluid" src="images/insurance.png" alt="">
-                                        <div class="card-block text-xs-left|center|right">
-                                            <h4 class="card-title">财务规划</h4>
-                                            <p class="card-text">专业持牌财务规划师为您提供个性化理财计划，帮助您最大化达到长/短期财务需求。</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                            <a href="financialPlanning.html">
-                                <div class="col-sm-4">
-                                    <div class="card">
-                                        <img class="card-img-top img-fluid" src="images/tax.png" alt="">
-                                        <div class="card-block text-xs-left|center|right">
-                                            <h4 class="card-title">财务规划</h4>
-                                            <p class="card-text">专业持牌财务规划师为您提供个性化理财计划，帮助您最大化达到长/短期财务需求。</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-
->>>>>>> c834acad94c0d764c70f46dc3355a0684ede53d1
+                            
                         </div>
+    
                         
                         <div class="col-md-3">
                             <!-- left col -->
@@ -267,7 +260,10 @@
                             <!-- right col -->
                             <div class="row" style="background-color:rgb(200, 200, 200)">
                                 <!-- right row 1 -->
-                                <h2>Tax</h2>
+                                 <h3 align="left">&nbsp;&nbsp;&nbsp;税务<br>
+                                    &nbsp;&nbsp;&nbsp;Tax
+                                 </h3>
+                                
                             </div>
                            
                         </div>
@@ -298,12 +294,11 @@
                 
                 
 
-<<<<<<< HEAD
                     
+                
+
                 <div class="tab-pane" id="1a">
-=======
-                <div class="tab-pane active" id="1a">
->>>>>>> c834acad94c0d764c70f46dc3355a0684ede53d1
+
                     <div class="container-fluid">
                         <div class="row">
                             <a href="financialPlanning.html">
