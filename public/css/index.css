@@ -11,6 +11,9 @@
     height: 270px;
 }
 
+/* Modify default element */
+
+
 img {
     max-height: 100%;
     max-width: 100%;
@@ -167,7 +170,7 @@ b {
     margin: 0;
     padding-left: auto;
     margin-top: 50px;
-    background-color: lightgray;
+    background-image: url("../images/act.png");
     text-align: center;
     grid-gap: 0px;
     overflow-x: hidden;
@@ -192,6 +195,6 @@ b {
 
 .custom-margin {
     padding: 0;
-    background-color: red;
+   
 
 }
