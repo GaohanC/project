@@ -208,3 +208,9 @@ b {
      background-size: 100% 100%;
         
 }
+
+#adv-row {
+    margin-top: -50px;
+    background-color: #c9e2b3;
+    color: grey;
+}
