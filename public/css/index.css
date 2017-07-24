@@ -222,3 +222,10 @@ b {
     background-color: #c9e2b3;
     color: grey;
 }
+
+#inner-header{
+   
+    background: url("../images/bgimg.jpg");
+    background-size: 100% 100%;
+        
+}
