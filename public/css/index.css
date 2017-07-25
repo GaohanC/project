@@ -235,3 +235,17 @@ b {
     margin-top: 10%;
     margin-bottom: 10%;
 }
+
+#retirement-calculator-bg{
+    background: url("../images/cal-bg.png") right no-repeat;
+    height:500px;
+    background-size: 80% 100%;
+    
+    
+}
+
+#calculator{
+    background: url("../images/cal.png");
+    
+    background-size: 100% 100%;
+}
