@@ -170,7 +170,7 @@ b {
 
 #advisor-row {
     margin-top: -50px;
-    background-color: silver;
+    background: linear-gradient(to right, lightgray, white);
     color: gray;
 }
 
@@ -229,4 +229,9 @@ b {
     height:500px;
     background-size: 100% 150%;
         
+}
+
+#contact {
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
