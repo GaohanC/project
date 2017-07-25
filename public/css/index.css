@@ -5,6 +5,10 @@
 
 /* colors */
 
+p {
+    font-size: 150%;
+}
+
 #header,
 #footer {
     background-color: lightskyblue;
@@ -232,4 +236,20 @@ b {
 #contact {
     margin-top: 10%;
     margin-bottom: 10%;
+}
+
+#retirement-banner {
+    padding: 0;
+    margin-top: 50px;
+    background: url("../images/retirement_banner2.png");
+    background-size: 100% 100%;
+    width: 100%;
+    height: 720px;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
