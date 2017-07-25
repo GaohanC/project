@@ -210,7 +210,7 @@ b {
 
 }
 .product-sidebar{
-    height: 500px;
+    height: 550px;
     background-color: lightgrey;
 }
 #product-article{
@@ -291,11 +291,7 @@ b {
     transform: translate(-50%, -50%);
 }
 
-<<<<<<< HEAD
 
-
-=======
->>>>>>> 988b22a913183d14d1973b6ecfbc5dac34754d51
 .logo {
     max-height: 250%;
     max-width: 250%;
@@ -303,7 +299,4 @@ b {
     padding: 0;
 }
 
-<<<<<<< HEAD
-=======
 
->>>>>>> 988b22a913183d14d1973b6ecfbc5dac34754d51
