@@ -142,9 +142,15 @@ b {
     margin: auto;
 }
 
-.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+ .carousel-inner > .item > img, .carousel-inner > .item > a > img {
     width: 100%;
-    height: 600px;
+    height: 720px;
+} 
+
+.banner {
+    width: 100%;
+    height: 650px;
+    margin-bottom: 10px; 
 }
 
 .bgimg {
@@ -206,7 +212,7 @@ b {
    
 
 }
-#product-sidebar{
+.product-sidebar{
     height: 500px;
     background-color: lightgrey;
 }
@@ -221,13 +227,6 @@ b {
     margin-top: -50px;
     background-color: #c9e2b3;
     color: grey;
-}
-
-#inner-header{
-   
-    background: url("../images/bgimg.jpg");
-    background-size: 100% 100%;
-        
 }
 
 #contact {
