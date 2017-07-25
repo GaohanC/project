@@ -235,3 +235,33 @@ b {
     margin-top: 10%;
     margin-bottom: 10%;
 }
+
+
+ h1 {
+            text-align: center;
+        }
+
+        .nav-tabs.centered>li,
+        .nav-pills.centered>li {
+            float: none;
+            display: inline-block;
+            *display: inline;
+            /* ie7 fix */
+            zoom: 1;
+            /* hasLayout ie7 trigger */
+        }
+
+        .nav-tabs.centered,
+        .nav-pills.centered {
+            text-align: center;
+        }
+        
+
+        #about-retirement{
+            
+            height: 700px;
+            background-color: lightgrey;
+            
+        }
+        
+     
