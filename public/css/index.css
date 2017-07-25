@@ -4,11 +4,6 @@
 
 
 /* colors */
-
-/* p {
-    font-size: 150%;
-} */
-
 #header,
 #footer {
     background-color: lightskyblue;
@@ -165,10 +160,8 @@ b {
     height: 300px;
 }
 
-.gcw_mainFaN5z6PfE{
-    float: left;
-    max-height: 100%;
-    max-width: 100%;
+#currency {
+    margin-top: 50px;
 }
 
 #footer-img {
@@ -267,4 +260,11 @@ b {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.logo {
+    max-height: 250%;
+    max-width: 250%;
+    margin-top: -5px;
+    padding: 0;
 }

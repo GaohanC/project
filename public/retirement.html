@@ -4,18 +4,18 @@
 
 <meta charset="UTF-8">
 <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- w3schools library -->
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <!-- jquery library   -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <!-- bootstrap library -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <!-- font-awesome library -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- custom style sheet  -->
-    <link rel="stylesheet" type="text/css" href="css/index.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- w3schools library -->
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<!-- jquery library   -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- bootstrap library -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!-- font-awesome library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- custom style sheet  -->
+<link rel="stylesheet" type="text/css" href="css/index.css">
 
 <script src="js/retirement.js"></script>
 
@@ -25,8 +25,8 @@
         <div class="container">
             <div class="navbar-header">
                 <a class="navbar-brand smooth" href="#home">
-                        <img class="float-left" height="30px" src="images/tenkk_small.png">
-                    </a>
+                    <img class="float-left logo" src="images/tenkk_small.png">
+                </a>
             </div>
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
@@ -48,106 +48,117 @@
                 <h1 style="margin-top: 60%; font-size: 40px; font-weight: bold;">您准备好退休了吗?</h1>
             </div>
         </div>
-        
-        
-        
+
+
+
         <!-- Retirement Calculator -->
         <div id="retirement-calculator" class="container">
-            <h1  align="center">———退休储蓄试算器———<br><font size="4">Retirement Planning Calculator</font></h1>
-             <div id="retirement-calculator-bg" >
-            <div id="calculator" class="col-md-4"> 
-                 <form id="calculate_saving" onsubmit="return false;">
-        <p> 欢迎参加本次答题 </p>
-        <p> Q1 <span style="color: red">*</span>: 您退休之后每年计划用多少钱？<br><input type="text" id="q1" required /></p>
-        <p> Q2: 您的OAS(<a href="https://en.wikipedia.org/wiki/Old_Age_Security"><u style="color: blue">什么是OAS</u></a>)是多少？(如为空默认为最大值6942.36) <br><input type="text" id= "q2" placeholder="6942.36"></P>
-        <p> Q3: 您的CPP(<a href="https://en.wikipedia.org/wiki/Canada_Pension_Plan"><u style="color: blue">什么是CPP</u></a>)是多少？(如为空默认为最大值8221.32) <br><input type="text" id= "q3" placeholder="8221.32"></P>
-        <p> Q4: 您现在的投资回报率是多少？(如为空默认为5) <br><input type="text" id="q4" placeholder="5">%</p>
-        <p> Q5 <span style="color: red">*</span>: 您的退休年龄是？<br><input type="text" id="q5" required></p>
-        <p> Q6 <span style="color: red">*</span>: 您的RRSP(<a href="https://en.wikipedia.org/wiki/Registered_Retirement_Savings_Plan"><u style="color: blue">什么是RRSP</u></a>)存了多少？<br><input type="text" name ="Q6" required></P>
-        <p> Q7 <span style="color: red">*</span>: 您的其他存款是多少？<br><input type="text" id="q7" required></p>       
-        <div style="position: absolute; bottom: 10px; right: 10px;"><input type="submit" value="查看结果"></div>
-        <br>
-        
-        <p style="font-size:80%">注：<span style="color: red"> * </span>为必填项。</p>
-        </form>
+            <h1 align="center">———退休储蓄试算器———<br>
+                <font size="4">Retirement Planning Calculator</font>
+            </h1>
+            <div id="retirement-calculator-bg">
+                <div id="calculator" class="col-md-4">
+                    <form id="calculate_saving" onsubmit="return false;">
+                        <p> 欢迎参加本次答题 </p>
+                        <p> Q1 <span style="color: red">*</span>: 您退休之后每年计划用多少钱？<br><input type="text" id="q1" required /></p>
+                        <p> Q2: 您的OAS(
+                            <a href="https://en.wikipedia.org/wiki/Old_Age_Security">
+                                <u style="color: blue">什么是OAS</u>
+                            </a>)是多少？(如为空默认为最大值6942.36) <br><input type="text" id="q2" placeholder="6942.36"></P>
+                        <p> Q3: 您的CPP(
+                            <a href="https://en.wikipedia.org/wiki/Canada_Pension_Plan">
+                                <u style="color: blue">什么是CPP</u>
+                            </a>)是多少？(如为空默认为最大值8221.32) <br><input type="text" id="q3" placeholder="8221.32"></P>
+                        <p> Q4: 您现在的投资回报率是多少？(如为空默认为5) <br><input type="text" id="q4" placeholder="5">%</p>
+                        <p> Q5 <span style="color: red">*</span>: 您的退休年龄是？<br><input type="text" id="q5" required></p>
+                        <p> Q6 <span style="color: red">*</span>: 您的RRSP(
+                            <a href="https://en.wikipedia.org/wiki/Registered_Retirement_Savings_Plan">
+                                <u style="color: blue">什么是RRSP</u>
+                            </a>)存了多少？<br><input type="text" name="Q6" required></P>
+                        <p> Q7 <span style="color: red">*</span>: 您的其他存款是多少？<br><input type="text" id="q7" required></p>
+                        <div style="position: absolute; bottom: 10px; right: 10px;"><input type="submit" value="查看结果"></div>
+                        <br>
+
+                        <p style="font-size:80%">注：<span style="color: red"> * </span>为必填项。</p>
+                    </form>
                 </div>
-           
-                
-        </div>
+
+
             </div>
+        </div>
         <!-- Retirement About -->
         <div id="retirement-about" class="container">
             <h1>Retirement about</h1>
             <img src="http://via.placeholder.com/600x600" alt="">
         </div>
     </div>
-<!-- End page content -->
-<!-- Footer -->
-<!-- Contact Section -->
-<div id="contact" class="main-section container">
-    <div align="center" class="section col-md-4">
-        <a> <br><br><img src ="images/qr.png"><br><br></a>
-        <p>分享我们</p>
-    </div>
-    <div class="section col-md-4">
-        <h3 class="w3-border-bottom w3-border-light-blue w3-padding-16" style="font-family:verdana">Useful Links<br>
-            <font size="4">更多链接</font>
-        </h3><br>
-        <p><a href="http://cpig.visastudio.com/#">CPIG Tax</a></p>
-        <p><a href="https://www.freedom55financial.com/">Freedom 55</a></p>
-        <p><a href="http://www.fidelity.ca/">Fidelity</a></p>
-        <p><a href="https://www.londonlife.com/">London Life</a></p>
-        <p><a href="https://www.canada.ca/en.html">Canada Government</a></p>
-        <p><a href="http://www2.gov.bc.ca/">BC Government</a></p>
-
-    </div>
-    <div class="section col-md-4">
-        <h3 class="w3-border-bottom w3-border-light-blue w3-padding-16" style="font-family:verdana">Get in Touch<br>
-            <font size="4">联系我们</font>
-        </h3><br>
-        <p><i class="glyphicon glyphicon-phone"></i> : 604-275-2744</p><br>
-        <p><i class="glyphicon glyphicon-envelope"></i> : info@tenkk.ca</p><br>
-        <p><i class="fa fa-clock-o"></i> : Mon - Fri 9.00 - 17.00</p><br>
-        <p><i class="fa fa-car"></i> : #4080-8171 Ackroyd Rd,Richmond, BC.V6X3K1</p>
-    </div>
-
-</div>
-<div id="footer" class="container">
-
-
-    <div class="main-section container">
-
-
-        <div class="section col-md-6">
-            <a> <br><br><br><br><br><br><br><img  src ="images/tenkk_small.png" width="200" height="25"></a>
+    <!-- End page content -->
+    <!-- Footer -->
+    <!-- Contact Section -->
+    <div id="contact" class="main-section container">
+        <div align="center" class="section col-md-4">
+            <a> <br><br><img src ="images/qr.png"><br><br></a>
+            <p>分享我们</p>
         </div>
-        <div class="section col-md-6">
-            <p>
-                <div class="section col-md-4"><img src="images/qr1.png" width="150px" height="150px"></div>
-            </p>
-            <p>
-                <div class="section col-md-4"><img src="images/qr2.png" width="150px" height="150px"></div>
-            </p>
-            <p>
-                <div class="section col-md-4"><img src="images/qr3.png" width="150px" height="150px"></div>
-            </p>
+        <div class="section col-md-4">
+            <h3 class="w3-border-bottom w3-border-light-blue w3-padding-16" style="font-family:verdana">Useful Links<br>
+                <font size="4">更多链接</font>
+            </h3><br>
+            <p><a href="http://cpig.visastudio.com/#">CPIG Tax</a></p>
+            <p><a href="https://www.freedom55financial.com/">Freedom 55</a></p>
+            <p><a href="http://www.fidelity.ca/">Fidelity</a></p>
+            <p><a href="https://www.londonlife.com/">London Life</a></p>
+            <p><a href="https://www.canada.ca/en.html">Canada Government</a></p>
+            <p><a href="http://www2.gov.bc.ca/">BC Government</a></p>
 
         </div>
-
+        <div class="section col-md-4">
+            <h3 class="w3-border-bottom w3-border-light-blue w3-padding-16" style="font-family:verdana">Get in Touch<br>
+                <font size="4">联系我们</font>
+            </h3><br>
+            <p><i class="glyphicon glyphicon-phone"></i> : 604-275-2744</p><br>
+            <p><i class="glyphicon glyphicon-envelope"></i> : info@tenkk.ca</p><br>
+            <p><i class="fa fa-clock-o"></i> : Mon - Fri 9.00 - 17.00</p><br>
+            <p><i class="fa fa-car"></i> : #4080-8171 Ackroyd Rd,Richmond, BC.V6X3K1</p>
+        </div>
 
     </div>
-    <div align="center">
-        <p>
-            <font size="2"><br><br>Copyright©2017TenKK Financial Consulting Ltd. All rights reserved.| Desclaimer</font>
-        </p>
+    <div id="footer" class="container">
+
+
+        <div class="main-section container">
+
+
+            <div class="section col-md-6">
+                <a> <br><br><br><br><br><br><br><img  src ="images/tenkk_small.png" width="200" height="25"></a>
+            </div>
+            <div class="section col-md-6">
+                <p>
+                    <div class="section col-md-4"><img src="images/qr1.png" width="150px" height="150px"></div>
+                </p>
+                <p>
+                    <div class="section col-md-4"><img src="images/qr2.png" width="150px" height="150px"></div>
+                </p>
+                <p>
+                    <div class="section col-md-4"><img src="images/qr3.png" width="150px" height="150px"></div>
+                </p>
+
+            </div>
+
+
+        </div>
+        <div align="center">
+            <p>
+                <font size="2"><br><br>Copyright©2017TenKK Financial Consulting Ltd. All rights reserved.| Desclaimer</font>
+            </p>
+        </div>
     </div>
-</div>
 
 
-<!-- #post-## -->
-</div>
+    <!-- #post-## -->
+    </div>
 
-<!-- End page content -->
+    <!-- End page content -->
 
 </body>
 
