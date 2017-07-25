@@ -5,6 +5,10 @@
 
 /* colors */
 
+/* p {
+    font-size: 150%;
+} */
+
 #header,
 #footer {
     background-color: lightskyblue;
@@ -142,9 +146,15 @@ b {
     margin: auto;
 }
 
-.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+ .carousel-inner > .item > img, .carousel-inner > .item > a > img {
     width: 100%;
-    height: 600px;
+    height: 720px;
+} 
+
+.banner {
+    width: 100%;
+    height: 650px;
+    margin-bottom: 10px; 
 }
 
 .bgimg {
@@ -206,7 +216,7 @@ b {
    
 
 }
-#product-sidebar{
+.product-sidebar{
     height: 500px;
     background-color: lightgrey;
 }
@@ -223,18 +233,11 @@ b {
     color: grey;
 }
 
-#inner-header{
-   
-    background: url("../images/bgimg.jpg");
-    height:500px;
-    background-size: 100% 150%;
-        
-}
-
 #contact {
     margin-top: 10%;
     margin-bottom: 10%;
 }
+
 
 #retirement-calculator-bg{
     background: url("../images/cal-bg.png") right no-repeat;
@@ -248,4 +251,20 @@ b {
     background: url("../images/cal.png");
     
     background-size: 100% 100%;
+}
+
+#retirement-banner {
+    padding: 0;
+    margin-top: 50px;
+    background: url("../images/retirement_banner2.png");
+    background-size: 100% 100%;
+    width: 100%;
+    height: 720px;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
