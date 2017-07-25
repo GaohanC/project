@@ -7,7 +7,7 @@
 #header,
 #footer {
     background-color: lightskyblue;
-    height: 270px;
+    height: 100%;
 }
 
 /* Modify default element */
@@ -222,7 +222,7 @@ b {
 
 #adv-row {
     margin-top: -50px;
-    background-color: #c9e2b3;
+    background-color: lightgray;
     color: grey;
 }
 
@@ -291,8 +291,11 @@ b {
     transform: translate(-50%, -50%);
 }
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 988b22a913183d14d1973b6ecfbc5dac34754d51
 .logo {
     max-height: 250%;
     max-width: 250%;
@@ -300,3 +303,7 @@ b {
     padding: 0;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 988b22a913183d14d1973b6ecfbc5dac34754d51
