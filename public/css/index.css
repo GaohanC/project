@@ -143,7 +143,7 @@ b {
 
  .carousel-inner > .item > img, .carousel-inner > .item > a > img {
     width: 100%;
-    height: 720px;
+    height: 710px;
 } 
 
 .banner {
@@ -210,8 +210,8 @@ b {
 
 }
 .product-sidebar{
-    height: 500px;
-    background-color: lightgrey;
+    height: 550px;
+    background-color:  	#E8E8E8;
 }
 #product-article{
     background-color: white;
@@ -255,7 +255,7 @@ b {
         #about-retirement{
             
             height: 700px;
-            background-color: lightgrey;
+            background-color:  	#E8E8E8;
             
         }
         
@@ -298,4 +298,7 @@ b {
     margin-top: -5px;
     padding: 0;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 3880e70cf702f2add65d2aa5fb7ba5823d205a79
