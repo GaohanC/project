@@ -4,6 +4,10 @@
 
 
 /* colors */
+
+a {
+    font-style: col
+}
 #header,
 #footer {
     background-color: lightskyblue;
@@ -320,4 +324,7 @@ b {
     border-color: #e7e7e7;
 }
 
-
+.company-logo {
+    max-height: 40px;
+    margin: 20px;
+}
