@@ -4,6 +4,10 @@
 
 
 /* colors */
+
+a {
+    font-style: col
+}
 #header,
 #footer {
     background-color: lightskyblue;
@@ -300,6 +304,13 @@ b {
 }
 
 
+#myTopBtn{
+        bottom: 5px;
+        right: 5px;
+        position:fixed;
+    }
+
+
 .navbar {
     -webkit-transition: all 0.6s ease-out;
     -moz-transition: all 0.6s ease-out;
@@ -313,3 +324,7 @@ b {
     border-color: #e7e7e7;
 }
 
+.company-logo {
+    max-height: 40px;
+    margin: 20px;
+}
