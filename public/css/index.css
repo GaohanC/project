@@ -6,7 +6,7 @@
 /* colors */
 
 a {
-    font-style: col
+    color: red;
 }
 #header,
 #footer {
@@ -90,7 +90,6 @@ body {
     width: 50%;
     float: left;
 }
-
 
 /* Bootstrap class */
 
