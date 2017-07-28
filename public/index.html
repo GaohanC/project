@@ -589,30 +589,37 @@
                                 <!-- left col -->
                                 <div class="row" style="background-color:rgb(200, 200, 200)">
                                     <!-- left row 1 -->
-                                    <p>7月15薰衣草<br>活动回顾</p>
+                                    <a href=""><img src="images/leftUp.png" height="250px"></a>
                                 </div>
                                 <div class="row">
                                     <!-- left row 2 -->
-                                    <p>Activity</p>
+                                    <a href=""><img src="images/leftDown.png" height="300px"></a>
                                 </div>
                             </div>
                             <div class="col-md-6 custom-margin">
                                 <!-- middle col -->
-                                <img src="images/act1.png" height="500">
+                                <a href=""><img src="images/mid.png" height="500px"></a>
                             </div>
                             <div class="col-md-3">
                                 <!-- right col -->
                                 <div class="row">
                                     <!-- right row 1 -->
-                                    <p>RESP<br>专题讲座<br>August 13</p>
+                                    <a href=""><img src="images/rightUp.png" height="250px"></a>
                                 </div>
                                 <div class="row" style="background-color:rgb(180, 180, 180)">
                                     <!-- right row 2 -->
                                     <div>
 
-                                        <a href="">
-                                            <p style="color:white"> 》 更多活动<br>...</p>
-                                        </a>
+                                        <div class="popup" onclick="myFunction()" style="color:white">》 更多活动<br>...<span class="popuptext" id="myPopup">更多活动<br>敬请期待</span>
+</div>
+                                            
+                                        <script>
+                                        // When the user clicks on div, open the popup
+                                        function myFunction() {
+                                        var popup = document.getElementById("myPopup");
+                                        popup.classList.toggle("show");
+}
+                                        </script>
 
                                     </div>
                                 </div>
