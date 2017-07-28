@@ -67,9 +67,10 @@
         </div>
     </nav>
     <!-- Page content -->
-    <div>
+    
         <!-- About Section -->
         <div id="home" class="main-section">
+             
             <div id="carousel-row">
                 <div id="myCarousel" class="carousel slide" data-ride="carousel">
                     <!-- Indicators -->
@@ -118,13 +119,7 @@
                         </div>
                         <div class="col-md-6">
                             <h2>Charles Wang</h2>
-                            <p>This is indicated in the documentation via input parameter specifications such as a : (..., M,
-                                M) array_like. This means that if for instance given an input array a.shape == (N, M, M),
-                                it is interpreted as a “stack” of N matrices, each of size M-by-M. Similar specification
-                                applies to return values, for instance the determinant has det : (...) and will in this case
-                                return an array of shape det(a).shape == (N,). This generalizes to linear algebra operations
-                                on higher-dimensional arrays: the last 1 or 2 dimensions of a multidimensional array are
-                                interpreted as vectors or matrices, as appropriate for each operation.</p>
+                            <p style="font-size:16px">London Life 2016 Top Sales，从业时间超过十年，经手各类客户理财案例，致力于帮助客人实现短期及长期的财务目标。Trust, Secure, Growth是他的核心服务理念。 财富管理金额超过5，000万加币，涉及风险管理，基金投资等多个金融领域。</p>
                         </div>
                         <div class="col-md-3">
                             <img src="images/资源 5.png" />
@@ -137,6 +132,7 @@
 
         <!-- Product Section -->
         <div id="product" class="main-section container" style="text-align:center">
+           
             <h1 class="w3-border-bottom w3-border-light-blue w3-padding-16">产品 Products<br>
                 <font size="4">Tenkk works with tons of Advisors involving in various area within Finance field.</font><br>
                 <font size="3">腾客连接众多金融从业人士，涉及全面产品类型，您的需求是我们的第一宗旨。</font>
@@ -590,25 +586,25 @@
                                 <div class="row" style="background-color:rgb(200, 200, 200)">
                                     <!-- left row 1 -->
                                     <a href="https://mp.weixin.qq.com/s?__biz=MzAxNTk3ODQ3MA==&mid=2247484614&idx=2&sn=88c37df17ed912f08fcf9f9aa21cb8c6&chksm=9bfa9e4fac8d17592454c9ed8593d5d93a17136545be53acd1918e81eac9a4d95889de2a30a1&scene=21#wechat_redirect
-"><img src="images/leftUp.png" height="250px"></a>
+"><img src="images/leftUp.png" ></a>
                                 </div>
                                 <div class="row">
                                     <!-- left row 2 -->
                                     <a href="https://mp.weixin.qq.com/s/Jgv-nre7UARa_QSsnoRKPw
-"><img src="images/leftDown.png" height="300px"></a>
+"><img src="images/leftDown.png" height="100%"></a>
                                 </div>
                             </div>
                             <div class="col-md-6 custom-margin">
                                 <!-- middle col -->
-                                <a href="https://docs.google.com/forms/d/e/1FAIpQLScAmMo4umD9LiFjWtB0RRO6tmb9BOdBEqMVcJ2j-0Ko83KzyA/viewform?usp=sf_link
-"><img src="images/mid.png" height="500px"></a>
+                                <a href="https://mp.weixin.qq.com/s/hro8laV28FPWZF-wZJA0nQ
+"><img src="images/mid.png" width="100%" height="500px"></a>
                             </div>
                             <div class="col-md-3">
                                 <!-- right col -->
                                 <div class="row">
                                     <!-- right row 1 -->
                                     <a href="https://docs.google.com/forms/d/e/1FAIpQLScAmMo4umD9LiFjWtB0RRO6tmb9BOdBEqMVcJ2j-0Ko83KzyA/viewform?usp=sf_link
-"><img src="images/rightUp.png" ></a>
+"><img src="images/rightUp.png" height="100%"></a>
                                 </div>
                                 <div class="row" style="background-color:rgb(180, 180, 180)">
                                     <!-- right row 2 -->
@@ -635,6 +631,7 @@
                 </div>
             </div>
 </div>
+       
 
 
 
@@ -649,6 +646,45 @@
           
 
   <div id="toTop-container"></div>
+  <div>
+      <script>
+  $(document).ready(function () {
+    // Add smooth scrolling to all links
+    $("a.smooth").on('click', function (event) {
+        if (this.hash !== "") {
+            event.preventDefault();
+
+            // Store hash
+            var hash = this.hash;
+            $('html, body').animate({
+                scrollTop: $(hash).offset().bottom
+            }, 1000, function () {
+                window.location.hash = hash;
+            });
+        }
+    });
+   
+    function checkScroll(){
+        var startY = $('.navbar').height() * 2; //The point where the navbar changes in px
+
+        if($(window).scrollTop() > startY){
+            $('.navbar').addClass("scrolled");
+        }else{
+            $('.navbar').removeClass("scrolled");
+        }
+    }
+
+    if($('.navbar').length > 0){
+        $(window).on("scroll load resize", function(){
+            checkScroll();
+        });
+    }
+});
+</script>
+<div id="myBottomBtn" align="center">
+      <a class="smooth" href="#contactUs-container"> <img src="images/tag.png" height="320px" width="100px"></a>
+  </div>
+  </div>
 
 </body>
 
