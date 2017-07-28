@@ -17,7 +17,7 @@ function calculate_saving(q1, q2, q3, q4, q5, q6, q7) {
     if (q1=="" || isNaN(q1)) q1=10000;
     if (q2=="" || isNaN(q2)) q2=6942.36;
     if (q3=="" || isNaN(q3)) q3=8221.32;
-    if (q4=="" || isNaN(q4)) q4=1;
+    if (q4=="" || isNaN(q4)) q4=0.05;
     if (q5=="" || isNaN(q5)) q5=0;
     if (q6=="" || isNaN(q6)) q6=0;
     if (q7=="" || isNaN(q7)) q7=0;
