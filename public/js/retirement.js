@@ -22,9 +22,9 @@ function calculate_saving(q1, q2, q3, q4, q5, q6, q7) {
     if (q6=="" || isNaN(q6)) q6=0;
     if (q7=="" || isNaN(q7)) q7=0;
     numerator1=q1-q2-q3;
-    numerator2=1-Math.pow((1+q4/100),-(100-q5));
+    numerator2=1-Math.pow((1+q4),-(100-q5));
     denominator=q4;
-    answer = numerator1*numerator2/denominator-q6-q7;
+    answer = (numerator1*numerator2)/denominator-q6-q7;
     if(answer>0){
         output=("我们预估为$"+toInteger(answer)+". 恭喜您，您有相对充裕的退休储蓄，妥善计划您的存款可以让您的退休生活更美好!");
     }else{
